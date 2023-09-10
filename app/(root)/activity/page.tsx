@@ -15,9 +15,6 @@ const Page = async () => {
     // getAcivity
     const activities = await getActivity(userInfo._id);
 
-    console.log(activities);
-
-
     return (
         <section>
 
